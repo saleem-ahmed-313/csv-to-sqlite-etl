@@ -13,7 +13,6 @@ It reads data from a **CSV file**, cleans/transforms it, and loads the results i
 - **Extractor** → Reads data from a CSV file.  
 - **Transformer** → Cleans and validates data (trims spaces, checks age, fills missing values).  
 - **Loader** → Loads data into a SQLite database (`etl_demo.db`).  
-- **Pipeline** → Orchestrates the ETL process end-to-end.  
 
 ---
 
@@ -31,5 +30,5 @@ It reads data from a **CSV file**, cleans/transforms it, and loads the results i
 
 ### 1️⃣ Clone the repo
 ```bash
-git clone https://github.com/your-username/csv-to-sqlite-etl.git
+git clone https://github.com/saleem-ahmed-313/csv-to-sqlite-etl.git
 cd csv-to-sqlite-etl
